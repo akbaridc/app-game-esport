@@ -12,6 +12,7 @@ class LandingPage extends CI_Controller
 
 		$this->load->library('template');
 	}
+
 	public function index()
 	{
 
@@ -20,5 +21,15 @@ class LandingPage extends CI_Controller
 		];
 
 		$this->template->loadViews('pages/index', $data);
+	}
+
+	public function faq()
+	{
+
+		$data = [
+			'title' => 'Frequently Asked Questions'
+		];
+
+		$this->template->loadViews('pages/faq', $data);
 	}
 }

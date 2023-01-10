@@ -1,4 +1,4 @@
-<section id="hero" class="hero carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="1000000">
+<section id="hero" class="hero carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
 
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -7,7 +7,7 @@
                     <div class="container hero-text" data-aos="zoom-out">
                         <h2>Daftarkan diri anda untuk mengikuti berbagai tournament dari kami</h2>
                         <p>Et voluptate esse accusantium accusamus natus reiciendis quidem voluptates similique aut.</p>
-                        <a href="#about" class="btn-get-started scrollto">Daftar Sekarang</a>
+                        <a href="<?= base_url('sign-up') ?>" class="btn-get-started scrollto">Daftar Sekarang</a>
                         <div class="d-flex">
                             <div class="partisipan" style="padding-left: 0;">
                                 <h4>37K+</h4>

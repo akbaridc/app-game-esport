@@ -55,6 +55,39 @@ $route['sign-up'] = 'Auth/sign_up';
 $route['forgot-password'] = 'Auth/forgot_password';
 $route['reset-password'] = 'Auth/reset_password';
 
+$route['faq'] = 'LandingPage/faq';
+
+/** User Route */
+$route['home'] = 'User/Home';
+
+$route['profile/(:any)'] = 'User/Profile';
+
+$route['setting'] = 'User/Setting';
+
+/** End User Route */
+
+$route['tournament'] = 'Tournament';
+$route['tournament/view/(:any)'] = 'Tournament/detail';
+$route['tournament/bracket/(:any)'] = 'Tournament/bracket';
+
+$route['exchange'] = 'Exchange';
+$route['exchange/view/(:any)'] = 'Exchange/detail';
+$route['exchange/transaction/(:any)'] = 'Exchange/transaction';
+$route['exchange/transaction-response'] = 'Exchange/transaction_callback';
+
+$route['wallet'] = 'Wallet';
+
+$route['withdraw'] = 'Withdraw';
+$route['withdraw/transaction/(:any)'] = 'Withdraw/transaction';
+$route['withdraw/transaction-response'] = 'Withdraw/transaction_callback';
+
+$route['topup'] = 'Topup';
+$route['topup/transaction/(:any)'] = 'Topup/transaction';
+$route['topup/payment/(:any)'] = 'Topup/payment';
+$route['topup/transaction-response'] = 'Topup/transaction_callback';
+
+$route['history'] = 'History';
+
 $route['default_controller'] = 'LandingPage';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
