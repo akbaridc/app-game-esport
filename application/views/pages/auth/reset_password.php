@@ -10,7 +10,7 @@
                         <input type="text" class="form-control" name="new_password" id="new_password" placeholder="Enter your New password">
                     </div>
 
-                    <button type="button" class="btn-authentication">Set Password</button>
+                    <button type="button" class="btn-authentication mt-4">Set Password</button>
                 </div>
 
             </div>

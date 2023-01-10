@@ -57,6 +57,11 @@
 	--color-secondary-rgb: 72, 86, 100;
 	--color-secondary-light-rgb: 143, 159, 174;
 	--color-secondary-dark-rgb: 58, 71, 83;
+	--color-secondary-linear: linear-gradient(
+		214.02deg,
+		rgba(var(--color-secondary-rgb), 0.89) 6.04%,
+		var(--color-secondary) 92.95%
+	);
 
 	/* General colors */
 	--color-blue: #0d6efd;

@@ -10,7 +10,7 @@
                         <input type="text" class="form-control" name="email" id="email" placeholder="Enter your Email">
                     </div>
 
-                    <button type="button" class="btn-authentication">Send Reset Password</button>
+                    <button type="button" class="btn-authentication mt-4">Send Reset Password</button>
                 </div>
 
             </div>

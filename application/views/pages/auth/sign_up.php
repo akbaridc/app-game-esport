@@ -35,7 +35,7 @@
                     </div>
 
 
-                    <button type="button" class="btn-authentication">Create an account</button>
+                    <button type="button" class="btn-authentication mt-4">Create an account</button>
                 </div>
 
             </div>
